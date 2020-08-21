@@ -1,0 +1,65 @@
+.main-body {
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+}
+
+.viewport {
+  box-sizing: border-box;
+  height: 100vh;
+  flex: 1;
+  border: 3px solid #333;
+}
+
+.code-editor-wrapper {
+  box-sizing: border-box;
+  border: 3px solid #333;
+  background: #333;
+}
+
+.codearea {
+  box-sizing: border-box;
+  display: block;
+  height: 200px;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+  background: #333;
+}
+
+.html {
+  resize: vertical;
+  color: #b35259;
+}
+
+.css {
+  resize: vertical;
+  color: #7090e0;
+}
+
+.js {
+  width: 600px;
+  color: #d1a562;
+}
+
+.apply-code {
+  box-sizing: border-box;
+  display: block;
+  height: 60px;
+  width: 200px;
+  background: #ddd;
+  border: 2px solid #333;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 50px auto 0;
+  transition: 0.3s;
+}
+
+.apply-code:hover {
+  background: #333;
+  color: #ddd;
+  border-color: #ddd;
+}
